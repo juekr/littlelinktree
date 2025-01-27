@@ -1,5 +1,21 @@
 ![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
 
+## Config options and default values
+
+- `$url`: if `$config->url` is not explicitly set (or it is empty), it will be automatically filled with `$_SERVER` variables.
+- `$domain`: automatically extracted from `$url` (`$url` minus protocol, port and path)
+- `$editmode`: becomes `true` if `$_GET["edit"]` is `1` – else it is `false`
+
+- `$title`: if `$config->h1` is not explicitly set (or it is empty), it becomes `$domain`
+- `$meta-author`: if `$config->meta_author` is not explicitly set (or it is empty), it becomes `$title`
+- `$meta_title`: if `$config->meta_title` is not explicitly set (or it is empty), it becomes: `$meta_author != $title ? $meta_author."'s LittleLink" : $title`.
+- `$meta_description`: if `$config->meta_description` is not set, it becomes `$meta_title`.
+- `$tagline`: if `$config->tagline` is not set, `$meta_description` is used.
+
+- `$avatar`: can be null (no avatar is used)
+- `$meta_favicon`: if `$config->meta_favicon` is not explicitly set (or it is empty), it becomes `$avatar` or  `"images/avatar.png"`
+- `$meta_tags`: if `$config->meta_tags` is not explicitly set (or it is empty), it becomes `[]` (can be string or array)
+
 # LittleLink
 The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more regularly added by our community in this repo and in [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). 
 

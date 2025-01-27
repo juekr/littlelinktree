@@ -1,0 +1,26 @@
+{
+    "name": "juekr/little-linker",
+    "description": "PHP-powered fork of LittleLink",
+    "type": "project",
+    "require": {
+        "symfony/yaml": "^7.2",
+        "fortawesome/font-awesome": "^6.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Juekr\\LittleLinker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jürgen Krauß",
+            "email": "juergen@es-ist-ein-krauss.de"
+        }
+    ],
+    "scripts": {
+        "post-update-cmd": [
+            "if [ ! -d \"fonts/font-awesome\" ]; then cp -R -n -p vendor/fortawesome/font-awesome fonts/font-awesome; fi"
+        ]
+    }
+}

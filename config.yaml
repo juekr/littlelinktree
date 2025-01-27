@@ -1,0 +1,359 @@
+config:
+  admin_key: .env
+  editable: true
+  url: https://juekr.de
+  h1: Bla
+  tagline: Fasel
+  meta_title: Jürgen
+  meta_description: An open source DIY Linktree alternative.
+  meta_author: Jürgen Krauß – der mit den guten Texten (und den guten Podcasts)
+  meta_favicon: images/avatar.png
+  meta_tags:
+    - copywriter
+    - podcaster
+    - nerd
+    - author
+    - speaker
+    - werbetexter
+    - nürnberg
+    - fürth
+    - ansbach
+    - sprecher
+    - autor
+    - podcast
+    - podcasting
+  buttons:
+    - name: LinkedIn
+      url: #
+    - name: Podcast-Brause
+      icon: Apple Podcasts Alternate
+    - name: Ach?
+      icon: Apple Podcasts Alternate
+    - name: Schmerzenssache
+      icon: Apple Podcasts Alternate
+    - name: geschichtspodcasts.de
+      icon: Apple Podcasts Alternate
+    - name: Webseite
+    - name: Github
+      icon: GitHub
+      url: #
+      class: button-github
+    - name: Wishlephant
+    - name: Ref-Link (Amazon)
+      icon: Amazon
+      url: https://amazon
+      class: button-amazon
+      style: "color: #123"
+button_shortcuts:
+  - name: Default LittleLink
+    icon: "images/icons/littlelink.svg"
+    class: "button-default"
+  - name: Amazon
+    icon: "images/icons/amazon.svg"
+    class: "button-amazon"
+  - name: Amazon Music
+    icon: "images/icons/amazon-music.svg"
+    class: "button-amazon-music"  
+  - name: Apple App Store
+    icon: "images/icons/apple.svg"
+    class: "button-appstore"
+  - name: Apple Music
+    icon: "images/icons/apple-music.svg"
+    class: "button-apple-music"         
+  - name: Apple Music Alternate
+    icon: "images/icons/apple-music-alt.svg"
+    class: "button-apple-music-alt"
+  - name: Apple Podcasts
+    icon: "images/icons/apple-podcasts.svg"
+    class: "button-apple-podcasts"
+  - name: Apple Podcasts Alternate
+    icon: "images/icons/apple-podcasts-alt.svg"
+    class: "button-apple-podcasts-alt"
+  - name: Bandcamp
+    icon: "images/icons/bandcamp.svg"
+    class: "button-bandcamp"
+  - name: Behance
+    icon: "images/icons/behance.svg"
+    class: "button-behance"
+  - name: Bluesky
+    icon: "images/icons/bluesky.svg"
+    class: "button-bluesky"
+  - name: Bluesky Alt
+    icon: "images/icons/bluesky-alt.svg"
+    class: "button-bluesky-alt"
+  - name: Buy Me A Coffee
+    icon: "images/icons/buy-me-a-coffee.svg"
+    class: "button-coffee"
+  - name: Cal.com
+    icon: "images/icons/cal.svg"
+    class: "button-cal"
+  - name: Calendly
+    icon: "images/icons/calendly.svg"
+    class: "button-calendly"
+  - name: Cash App
+    icon: "images/icons/cash-app-dollar.svg"
+    class: "button-cash-app"
+  - name: Dev.to
+    icon: "images/icons/dev-to.svg"
+    class: "button-dev-to"
+  - name: Discogs
+    icon: "images/icons/discogs.svg"
+    class: "button-discogs"
+  - name: Discogs Alt
+    icon: "images/icons/discogs-alt.svg"
+    class: "button-discogs-alt"
+  - name: Discord
+    icon: "images/icons/discord.svg"
+    class: "button-discord"
+  - name: Dribbble
+    icon: "images/icons/dribbble.svg"
+    class: "button-dribbble"
+  - name: Etsy
+    icon: "images/icons/etsy.svg"
+    class: "button-etsy"
+  - name: Facebook
+    icon: "images/icons/facebook.svg"
+    class: "button-faceb"
+  - name: Facebook Messenger
+    icon: "images/icons/messenger.svg"
+    class: "button-messenger"
+  - name: Figma
+    icon: "images/icons/figma.svg"
+    class: "button-figma"
+  - name: Fiverr
+    icon: "images/icons/fiverr.svg"
+    class: "button-fiverr"
+  - name: Flickr
+    icon: "images/icons/flickr.svg"
+    class: "button-flickr"
+  - name: GitHub
+    icon: "images/icons/github.svg"
+    class: "button-github"
+  - name: GitLab
+    icon: "images/icons/gitlab.svg"
+    class: "button-gitlab"
+  - name: GoFundMe
+    icon: "images/icons/gofundme.svg"
+    class: "button-gofundme"
+  - name: Goodreads
+    icon: "images/icons/goodreads.svg"
+    class: "button-goodreads"
+  - name: Google Drive
+    icon: "images/icons/google-drive.svg"
+    class: "button-google-black"
+  - name: Google Play Store
+    icon: "images/icons/google-play.svg"
+    class: "button-playstore"
+  - name: Google Scholar
+    icon: "images/icons/google-scholar.svg"
+    class: "button-google-scholar"
+  - name: Hashnode
+    icon: "images/icons/hashnode.svg"
+    class: "button-hashnode"
+  - name: Instagram
+    icon: "images/icons/instagram.svg"
+    class: "button-instagram"
+  - name: Kick
+    icon: "images/icons/kick.svg"
+    class: "button-kick"
+  - name: Kick Alt
+    icon: "images/icons/kick-alt.svg"
+    class: "button-kick-alt"
+  - name: Kickstarter
+    icon: "images/icons/kickstarter.svg"
+    class: "button-kickstarter"
+  - name: Kit
+    icon: "images/icons/kit.svg"
+    class: "button-kit"
+  - name: Ko-fi
+    icon: "images/icons/ko-fi.svg"
+    class: "button-ko-fi"
+  - name: Last.fm
+    icon: "images/icons/last-fm.svg"
+    class: "button-last-fm"
+  - name: Letterboxd
+    icon: "images/icons/letterboxd.svg"
+    class: "button-letterboxd"
+  - name: Line
+    icon: "images/icons/line.svg"
+    class: "button-line"
+  - name: LinkedIn
+    icon: "images/icons/linkedin.svg"
+    class: "button-linked"
+  - name: Mailchimp
+    icon: "images/icons/mailchimp.svg"
+    class: "button-mailchimp"
+  - name: Mastodon
+    icon: "images/icons/mastodon.svg"
+    class: "button-mastodon"
+  - name: Medium
+    icon: "images/icons/medium.svg"
+    class: "button-medium"
+  - name: Microsoft Store
+    icon: "images/icons/microsoft.svg"
+    class: "button-microsoft"
+  - name: Notion
+    icon: "images/icons/notion.svg"
+    class: "button-notion"
+  - name: Obsidian
+    icon: "images/icons/obsidian.svg"
+    class: "button-obsidian"
+  - name: OnlyFans
+    icon: "images/icons/onlyfans.svg"
+    class: "button-onlyfans"
+  - name: Patreon
+    icon: "images/icons/patreon.svg"
+    class: "button-patreon"
+  - name: PayPal
+    icon: "images/icons/paypal.svg"
+    class: "button-paypal"
+  - name: Pinterest
+    icon: "images/icons/pinterest.svg"
+    class: "button-pinterest"
+  - name: Product Hunt
+    icon: "images/icons/product-hunt.svg"
+    class: "button-product-hunt"
+  - name: Read.cv
+    icon: "images/icons/read-cv.svg"
+    class: "button-read-cv"
+  - name: Reddit
+    icon: "images/icons/reddit.svg"
+    class: "button-reddit"
+  - name: Shop
+    icon: "images/icons/shop.svg"
+    class: "button-shop"
+  - name: Signal
+    icon: "images/icons/signal.svg"
+    class: "button-signal"
+  - name: Slack
+    icon: "images/icons/slack.svg"
+    class: "button-slack"
+  - name: Snapchat
+    icon: "images/icons/snapchat.svg"
+    class: "button-snapchat"
+  - name: SoundCloud
+    icon: "images/icons/soundcloud.svg"
+    class: "button-soundcloud"
+  - name: Spotify
+    icon: "images/icons/spotify.svg"
+    class: "button-spotify"
+  - name: Spotify Alt
+    icon: "images/icons/spotify-alt.svg"
+    class: "button-spotify-alt"
+  - name: Square
+    icon: "images/icons/square.svg"
+    class: "button-square"
+  - name: Stack Overflow
+    icon: "images/icons/stack-overflow.svg"
+    class: "button-stack-overflow"
+  - name: Steam
+    icon: "images/icons/steam.svg"
+    class: "button-steam"
+  - name: Steam Alt
+    icon: "images/icons/steam.svg"
+    class: "button-steam-alt"
+  - name: Strava
+    icon: "images/icons/strava.svg"
+    class: "button-strava"
+  - name: Substack
+    icon: "images/icons/substack.svg"
+    class: "button-substack"
+  - name: Telegram
+    icon: "images/icons/telegram.svg"
+    class: "button-telegram"
+  - name: Threads
+    icon: "images/icons/threads.svg"
+    class: "button-threads"
+  - name: Threema
+    icon: "images/icons/threema.svg"
+    class: "button-threema"
+  - name: TikTok
+    icon: "images/icons/tiktok.svg"
+    class: "button-tiktok"
+  - name: Trello
+    icon: "images/icons/trello.svg"
+    class: "button-trello"
+  - name: Tumblr
+    icon: "images/icons/tumblr.svg"
+    class: "button-tumb"
+  - name: Twitch
+    icon: "images/icons/twitch.svg"
+    class: "button-twitch"
+  - name: Unsplash
+    icon: "images/icons/unsplash.svg"
+    class: "button-unsplash"
+  - name: Venmo
+    icon: "images/icons/venmo.svg"
+    class: "button-venmo"
+  - name: Vimeo
+    icon: "images/icons/vimeo.svg"
+    class: "button-vimeo"
+  - name: VSCO
+    icon: "images/icons/vsco.svg"
+    class: "button-vsco"
+  - name: WhatsApp
+    icon: "images/icons/whatsapp.svg"
+    class: "button-whatsapp"
+  - name: WordPress
+    icon: "images/icons/wordpress.svg"
+    class: "button-wordpress"
+  - name: X
+    icon: "images/icons/x.svg"
+    class: "button-x"
+  - name: YouTube
+    icon: "images/icons/youtube.svg"
+    class: "button-yt"
+  - name: YouTube Music
+    icon: "images/icons/youtube-music.svg"
+    class: "button-yt"
+  - name: Zoom
+    icon: "images/icons/zoom.svg"
+    class: "button-zoom"
+  - name: Generic Blog
+    icon: "images/icons/generic-blog.svg"
+    class: "button-default"
+  - name: Generic Calendar
+    icon: "images/icons/generic-calendar.svg"
+    class: "button-default"
+  - name: Generic Cloud
+    icon: "images/icons/generic-cloud.svg"
+    class: "button-default"
+  - name: Generic Code
+    icon: "images/icons/generic-code.svg"
+    class: "button-default"
+  - name: Generic Computer
+    icon: "images/icons/generic-computer.svg"
+    class: "button-default"
+  - name: Generic Email
+    icon: "images/icons/generic-email.svg"
+    class: "button-default"
+  - name: Generic Email Alt
+    icon: "images/icons/generic-email-alt.svg"
+    class: "button-default"
+  - name: Generic Homepage
+    icon: "images/icons/generic-homepage.svg"
+    class: "button-default"
+  - name: Generic Map
+    icon: "images/icons/generic-map.svg"
+    class: "button-default"
+  - name: Generic Phone
+    icon: "images/icons/generic-phone.svg"
+    class: "button-default"
+  - name: Generic Review
+    icon: "images/icons/generic-review.svg"
+    class: "button-default"
+  - name: Generic RSS
+    icon: "images/icons/generic-rss.svg"
+    class: "button-default"
+  - name: Generic Shopping Bag
+    icon: "images/icons/generic-shopping-bag.svg"
+    class: "button-default"
+  - name: Generic Shopping Tag
+    icon: "images/icons/generic-shopping-tag.svg"
+    class: "button-default"
+  - name: Generic SMS
+    icon: "images/icons/generic-sms.svg"
+    class: "button-default"
+  - name: Generic Website
+    icon: "images/icons/generic-website.svg"
+    class: "button-default"
